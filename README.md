@@ -12,8 +12,9 @@ This Python terminal application listens to a given multicast address and analyz
 
 ## Installation
 
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies:
+1. [Clone the repository to your local machine](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+2. Install [Python](https://wiki.python.org/moin/BeginnersGuide/Download) and [pip](https://pip.pypa.io/en/stable/installation/) on your computer.
+3. Install the necessary dependencies:
    - Linux/MacOS: `pip install -r requirements.txt`
    - Windows: `pip install -r requirements-win.txt`
 
