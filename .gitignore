@@ -1,0 +1,9 @@
+*.config
+!ggo_mta-default.config
+*.log
+*.spec
+*.ico
+/build
+/src
+/.vscode
+/venv*
