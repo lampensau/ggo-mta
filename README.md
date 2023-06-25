@@ -2,7 +2,9 @@
 
 ## Description
 
-This Python application listens to a given multicast address and analyzes the traffic. It can be configured with the multicast and local interface addresses through command line arguments or a configuration file.
+This Python terminal application listens to a given multicast address and analyzes the traffic. It can be configured with the multicast and local interface addresses through command line arguments or a configuration file.
+
+![ggo-mta UI](ggo-mta_ui.png)
 
 > **Disclaimer:** This application is only thought to enable quick analysis. It should not be taken as the "stick of truth" as the displayed statistics can be "skewed" depending on "perspective" (host or network configuration).
 >
@@ -70,6 +72,22 @@ For example, a running application using the multicast address of `239.0.0.1` wi
 > You can use [command line arguments](#loading-custom-configuration-file) to load your custom configuration.
 
 While the application is running, pressing the `s` key will save the current configuration to the default configuration file (`mta_ggo-default.config`), which can be used to start the application without any command line arguments.
+
+## Subscriber's statistics & UI
+
+Once the application is started, it will display a table with the following headings:
+
+- **Source IP:** The source IP address of the multicast traffic.
+- **Device:** The subscriber's type of device (limited support).
+- **ENG:** The subscriber's Green-GO engine (some devices feature multiple engines).
+- **Kbps:** Subscriber's current bandwidth.
+- **Lost:** Lost packets counter.
+- **Updates:** Counter for config/update packets.
+- **Voice:** Counter for voice stream packages.
+- **Delta:** Delta time between packet-to-packet arrivals (current/average/maximum).
+- **Jitter:** Jitter calculated by arrival times of latest packets (current/average/maximum).
+
+Each row in the table represents a unique source of multicast traffic. The table is updated in real-time as new packets are received.
 
 ## Contact & Support
 
