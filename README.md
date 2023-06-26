@@ -1,7 +1,5 @@
 # Green-GO Multicast Traffic Analyzer
 
-## Description
-
 This Python terminal application listens to a given multicast address and analyzes the traffic. It can be configured with the multicast and local interface addresses through command line arguments or a configuration file.
 
 ![ggo-mta UI](ggo-mta_ui.png)
