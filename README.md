@@ -28,7 +28,11 @@ This Python terminal application listens to a given multicast address and analyz
 Example:
 
 ```
+Python:
 python3 ggo-mta.py 239.0.0.1 192.168.0.101
+
+Executable (Windows Powershell):
+.\ggo-mta.exe 239.0.0.1 192.168.0.101
 ```
 
 ### Interactive Commands
