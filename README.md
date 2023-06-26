@@ -25,15 +25,19 @@ This Python terminal application listens to a given multicast address and analyz
 1. multicast_address: Multicast IPv4 address to join and listen to. To find the multicast address for your Green-GO system, simply check the global configuration settings.
 2. interface_address: The IPv4 address of the network interface you want to use.
 
-Example:
+**Example** (Python 3):
 
 ```
-Python:
 python3 ggo-mta.py 239.0.0.1 192.168.0.101
+```
 
-Executable (Windows Powershell):
+**Example** (Windows executable):
+
+```
 .\ggo-mta.exe 239.0.0.1 192.168.0.101
 ```
+
+> You must use Powershell to run this executable. The `CMD` terminal will most likely not work.
 
 ### Interactive Commands
 
