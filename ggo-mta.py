@@ -19,7 +19,7 @@
 # SOFTWARE.
 #
 # Author(s): 
-# - Your Name <github@timotoups.de>
+# - Timo Toups <github@timotoups.de>
 #
 # Description: 
 # This program is a multicast traffic analyzer built to monitor and analyze the 
